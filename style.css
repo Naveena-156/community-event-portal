@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f4f4;
+  color:#333;
+}
+
+
+
+nav{
+  background:#111;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 50px;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:orange;
+}
+
+/* Hero Section */
+
+.hero{
+  height:90vh;
+  background:url("images/banner.jpg");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.hero-content{
+  background:rgba(0,0,0,0.6);
+  padding:40px;
+  border-radius:10px;
+}
+
+.hero h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  margin-bottom:20px;
+  font-size:18px;
+}
+
+.hero button{
+  padding:12px 25px;
+  border:none;
+  background:orange;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+
+.events{
+  padding:60px 30px;
+  text-align:center;
+}
+
+.event-container{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.card{
+  background:white;
+  width:300px;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.card h3{
+  margin:15px 0;
+}
+
+.card p{
+  padding:0 15px 20px;
+}
+
+
+.register{
+  padding:60px 20px;
+  text-align:center;
+}
+
+form{
+  width:400px;
+  margin:auto;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+form input,
+form select,
+form textarea{
+  width:100%;
+  padding:12px;
+  margin-top:15px;
+}
+
+form button{
+  width:100%;
+  margin-top:20px;
+  padding:12px;
+  border:none;
+  background:green;
+  color:white;
+  cursor:pointer;
+}
+
+
+
+.video-section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+
+
+.location-section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.location-section button{
+  padding:12px 20px;
+  border:none;
+  background:blue;
+  color:white;
+  cursor:pointer;
+}
